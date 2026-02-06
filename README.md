@@ -61,6 +61,10 @@ python main.py
 - **Logging**: The game logs state and events to JSONL files (`game_state.jsonl` and `game_events.jsonl`) for the first 16 seconds of gameplay
 - **FPS**: The game runs at 60 FPS for smooth gameplay
 
+## 📸 Gameplay
+
+![Gameplay](assets/screenshots/gameplay.gif)
+
 ## 📁 Project Structure
 
 - `main.py` - Main game loop and entry point
@@ -80,3 +84,4 @@ python main.py
 - Add a background image
 - Add an explosion effect for the asteroids
 - Add acceleration to the player movement
+
