@@ -64,7 +64,7 @@ python main.py
 
 ## 📸 Gameplay
 
-![Gameplay](assets/screenshots/gameplay.gif)
+![Gameplay](assets/screenshots/gameplay2.gif)
 
 ## 📁 Project Structure
 
@@ -90,3 +90,4 @@ python main.py
 ## Changelog
 
 - v0.2 - Added scoring system with high score tracking
+
