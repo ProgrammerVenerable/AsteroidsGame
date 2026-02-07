@@ -58,6 +58,7 @@ python main.py
 - **Asteroid Splitting**: When shot, large asteroids split into medium ones and  medium ones to small, then gets destroyed when shot at small
 - **Collision Detection**: Circle-based collision detection for ship-asteroid and shot-asteroid interactions
 - **Shooting Cooldown**: There's a 0.3 second cooldown between shots to prevent spam
+- **Scoring System**: earn points for destroying asteroids, high score is saved across sessions
 - **Logging**: The game logs state and events to JSONL files (`game_state.jsonl` and `game_events.jsonl`) for the first 16 seconds of gameplay
 - **FPS**: The game runs at 60 FPS for smooth gameplay
 
@@ -75,13 +76,17 @@ python main.py
 - `circleshape.py` - Base class for circular game objects with collision detection
 - `constants.py` - Game configuration constants (screen size, speeds, etc.)
 - `logger.py` - Game state and event logging system
+- `score.py` - Score functions that help with updating and checking score
+- `data/score.txt` - Stores the highscore
 - `pyproject.toml` - Project configuration and dependencies
 
 ## 🚧 Future Improvements
 
-- Add a scoring system
 - Implement multiple lives and respawning
 - Add a background image
 - Add an explosion effect for the asteroids
 - Add acceleration to the player movement
 
+## Changelog
+
+- v0.2 - Added scoring system with high score tracking
